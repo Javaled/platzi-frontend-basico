@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades mas Usadas</title>
+    <style>
+        section {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0;
+        }
+        .card {
+            min-width: 300px;
+            height: 500px;
+            background: papayawhip;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 0;
+        }
+
+        .card img {
+            width: 100%;
+        }
+
+        .card p {
+            text-align: center;
+            margin: 0;
+        }
+        .card p:nth-child(2) {
+            color: cadetblue;
+        }
+
+        .datos {
+            display: flex;
+            flex-wrap: nowrap;
+            margin-bottom: 0;
+            position: static;
+            width: auto;
+            /* align-items: center;
+            justify-content: center; */
+        }
+        .datos .icon {
+            height: 20px;
+
+
+        }
+        .datos__c {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width:fit-content;
+
+        }
+
+        div .datos__d {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: auto;
+
+        }
+        .card .datos .p #title-one{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/605496/pexels-photo-605496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <p>Dog: Boxer</p>
+            <p>Brave</p>
+        
+            <div class="datos">
+                <div class="datos__c">
+                    <img src="./img/location-svgrepo-com.svg" alt="" class="icon">
+                    <p>Perú</p>
+                </div>
+                <div class="datos__c">
+                    <img src="./img/email-svgrepo-com.svg" alt="" class="icon">
+                    <p>Send E-mail</p>
+                </div>
+            </div>
+            <div class="datos">
+                <div class="datos__d">
+                    <p id="title-one">8,100</p>
+                    <p id="title-two">Followers</p>
+                </div>
+                <div class="datos__d">
+                    <p id="title-one">3,600</p>
+                    <p id="title-two">Following</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
